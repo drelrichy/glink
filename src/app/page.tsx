@@ -1,10 +1,11 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 //components
 import Header from '@/components/Header'
 import TrendingAds from "@/components/TrendingAds"
 import SideBar from "@/components/SideBar"
 import AdSearch from "@/components/AdSearch"
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <SideBar />
       <TrendingAds />
       </div>      
+      <Footer />
     </main>
-  )
+  );
 }
