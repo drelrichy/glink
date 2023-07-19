@@ -3,13 +3,13 @@ import Link from 'next/link';
 
 
 
-function CreateAdv() {
+function CreateAds() {
     return (
         <div className="flex justify-center items-center bg-gray-100 p-4">
             <div className="flex flex-col items-center">
                 <div className="w-full h-4 max-w-xl xl:max-w-3xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 mb-3 p-10">
                     <div className="flex items-center justify-between mb-4">
-                        <Link href="/postAdv/index" className="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500 ml-0">
+                        <Link href="/sales" className="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500 ml-0">
                             Back
                         </Link>
                         <h5 className="text-center font-bold leading-none text-gray-900 dark:text-white flex-1">
@@ -203,4 +203,4 @@ function CreateAdv() {
     );
 }
 
-export default CreateAdv;
+export default CreateAds;

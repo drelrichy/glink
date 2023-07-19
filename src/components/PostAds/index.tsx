@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import CreateAdv from '../createAdv';
 
-const PostAdv = () => {
+
+const PostAds = () => {
   return (
     <div className="flex justify-center items-center bg-gray-100 p-4">
       <div className="flex flex-col items-center">
@@ -52,8 +52,8 @@ const PostAdv = () => {
 
           </Link>
           <br></br>
-          <Link href="/createAdv/index">
-            <button type="button" className="py-2.5 px-5 block w-full  mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-blue-700 text-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Next</button>
+          <Link href="/create">
+            <button type="button" className="py-2.5 px-5 block w-full  mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-blue-700 text-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white ">Next</button>
           </Link>
         </div>
       </div>
@@ -61,4 +61,4 @@ const PostAdv = () => {
   );
 };
 
-export default PostAdv;
+export default PostAds;
