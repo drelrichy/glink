@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'sell page',
-  description: "Displays sell page",
+  title: 'Add Ads page',
+  description: "Displays Add Ads page",
 }
 
 export default function SalesLayout({

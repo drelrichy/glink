@@ -8,7 +8,7 @@ function CreatePage() {
       <Header />
       <div className=''>
         <div><CreateAds /></div>
-      </div> 
+      </div>
     </main>
   )
 }

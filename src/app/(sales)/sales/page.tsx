@@ -1,4 +1,3 @@
-
 import Header from '@/components/Header'
 import PostAds from '@/components/PostAds'
 import React from 'react'
@@ -9,7 +8,7 @@ function SalesPage() {
       <Header />
       <div className=''>
         <div><PostAds /></div>
-      </div> 
+      </div>
     </main>
   )
 }

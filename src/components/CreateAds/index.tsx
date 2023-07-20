@@ -1,8 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 
-
-
 function CreateAds() {
     return (
         <div className="flex justify-center items-center bg-gray-100 p-4">
@@ -125,7 +123,7 @@ function CreateAds() {
                 </div>
                 <br></br>
                 <div className="w-full max-w-xl xl:max-w-3xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 px-8 dark:bg-gray-800 dark:border-gray-700">
-                
+
                     <p>Delivery</p>
                     <select id="countries" className="bg-gray-50 mb-3 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option selected>Add delivery options</option>
@@ -139,7 +137,6 @@ function CreateAds() {
                 <div className="w-full max-w-xl xl:max-w-3xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 px-8 dark:bg-gray-800 dark:border-gray-700">
                     <h3>Promote your ad</h3>
                     <p>please, choose one of the following to promote your add</p>
-                    {/* <div className="flex items-center justify-between"> */}
                     <div>
                         <Link href="">
                             <button
@@ -199,7 +196,6 @@ function CreateAds() {
 
             </div>
         </div>
-        // </div>
     );
 }
 
