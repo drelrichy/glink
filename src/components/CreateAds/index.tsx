@@ -31,7 +31,7 @@ function CreateAds() {
                     </div>
 
                     <select id="countries" className="bg-gray-50 mb-3 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                        <option selected>Others</option>
+                        <option selected>Foods</option>
                         <option value="US">Electronics</option>
                         <option value="CA">Clothes</option>
                         <option value="FR">Furniture</option>
@@ -127,10 +127,9 @@ function CreateAds() {
                     <p>Delivery</p>
                     <select id="countries" className="bg-gray-50 mb-3 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option selected>Add delivery options</option>
-                        <option value="US">Electronics</option>
-                        <option value="CA">Clothes</option>
-                        <option value="FR">Furniture</option>
-                        <option value="DE">Cars</option>
+                        <option value="US">Door Delivery</option>
+                        <option value="CA">Pick Up</option>
+                        <option value="FR">Others</option>
                     </select>
                 </div>
                 <br></br>
@@ -182,12 +181,12 @@ function CreateAds() {
                         <p className="py-0">Ush 70000</p>
 
                     </div>
-                    <Link href="/Create-adv/index">
+                    <Link href="/">
                         <button type="button" className="py-2.5 px-5 block w-full  mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-blue-700 text-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Post ad</button>
                     </Link>
                     <div className="text-xs">
                         By clicking on Post Ad, you accept the
-                        <a href="/rules.html" className="text-blue-700">
+                        <a href="/rules" className="text-blue-700">
                             Terms of Use
                         </a>
                         , confirm that you will abide by the Safety Tips, and declare that this posting does not include any Prohibited Items.

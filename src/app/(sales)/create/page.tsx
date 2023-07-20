@@ -6,8 +6,8 @@ function CreatePage() {
   return (
     <main className=" min-h-screen px-24">
       <Header />
-      <div className=''>
-        <div><CreateAds /></div>
+      <div>
+        <CreateAds />
       </div>
     </main>
   )

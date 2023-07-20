@@ -24,10 +24,10 @@ const PostAds = () => {
           </select>
           <select id="countries" className="bg-gray-50 border mb-3 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
             <option selected>Select Location*</option>
-            <option value="US">kampala</option>
-            <option value="CA">mukono</option>
-            <option value="FR">mbale</option>
-            <option value="DE">mbarara</option>
+            <option value="kampala">kampala</option>
+            <option value="mukono">mukono</option>
+            <option value="mbale">mbale</option>
+            <option value="mbarara">mbarara</option>
           </select>
           <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">Add photo</p>
           <p className="mb-2 text-sm text-gray-500 dark:text-gray-400"><span className="font-semibold">Add atleast 1 photo for this category </span></p>

@@ -6,8 +6,8 @@ function SalesPage() {
   return (
     <main className=" min-h-screen px-24">
       <Header />
-      <div className=''>
-        <div><PostAds /></div>
+      <div>
+        <PostAds />
       </div>
     </main>
   )
