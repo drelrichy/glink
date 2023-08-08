@@ -3,16 +3,26 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import image1 from "../../images/city1.png";
-import image2 from "../../images/city2.png";
+//import image1 from "/images/woman.png";
+import image2 from "/images/city2.png";
 
 function Footer() {
   const year = new Date().getFullYear();
   return (
     <div>
       <div className="justify-center flex">
-        <Image src={image1} alt="Picture of City" />
-        <Image src={image2} alt="Picture of City " />
+        <Image
+          src="/images/city1.png"
+          alt="Picture of City"
+          width="360"
+          height="480"
+        />
+        <Image
+          src="/images/city2.png"
+          alt="Picture of City"
+          width="360"
+          height="480"
+        />
       </div>
       <div
         className="flex flex-col px-2 bg-gradient-to-b from-indigo-500 to-sky-500 py-4 mb-3
