@@ -32,7 +32,7 @@ function Footer() {
           <div className="gap-y-2 gap-x-5 md:px-10 flex flex-col sm:px-2">
             <h3 className="text-black "> About us</h3>
             <Link className="text-xs text-white hover:text-violet-900" href="/">
-              About AdsPro
+              About G~Link
             </Link>
             <Link className="text-xs text-white hover:text-violet-900" href="/">
               Terms & Conditions
@@ -48,7 +48,7 @@ function Footer() {
           <div className="gap-y-2 gap-x-2 md:px-10 flex flex-col sm:px-2">
             <h3 className="text-black "> Support</h3>
             <Link className="text-xs text-white hover:text-violet-900" href="/">
-              Support@AdsPro.ug
+              Support@glink.com.ng
             </Link>
             <Link
               className=" text-xs text-white hover:text-violet-900"
@@ -86,13 +86,13 @@ function Footer() {
           <div className="gap-y-2 gap-x-2 md:px-10 flex flex-col sm:px-2">
             <h3 className="text-black "> Our resources</h3>
             <Link className="text-xs text-white hover:text-violet-900" href="/">
-              AdsPro on FB
+             G~Link on FB
             </Link>
             <Link className="text-xs text-white hover:text-violet-900" href="/">
-              AdsPro on Instagram
+             G~Link on Instagram
             </Link>
             <Link className="text-xs text-white hover:text-violet-900" href="/">
-              AdsPro on Twitter
+             G~Link on Twitter
             </Link>
           </div>
 
@@ -109,7 +109,7 @@ function Footer() {
 
         <div className=" flex justify-center pb-0 pt-4 text-sm ">
           <h3 className="text-violet-900 justify-center ">
-            Copyright &copy; {year} AdsPro.ug
+            Copyright &copy; {year} glink.com.ng
           </h3>
         </div>
       </div>
